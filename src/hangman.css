@@ -1,0 +1,192 @@
+.hiddenLetters
+{
+	color: black;
+	border-color: white;
+	border-style: solid;
+	border-radius: 0.25px;
+	float:left;
+	padding: 10px;
+	margin: 2px;
+	font-size: 20px;
+
+}
+.reveal
+{
+	color: black;
+	background-color: green;
+	border-color: white;
+	border-style: solid;
+	border-radius: 1px;
+	float:left;
+	padding: 8px;
+	font-size: 20px;
+	
+}
+.container
+{
+	display : grid;	
+	border-style: solid;
+	border-radius: 5px;
+	padding: 20px;
+	grid-column-gap: 2px;
+
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+
+	/*grid-template-columns: 1fr;*/
+	border-color: #349eeb;
+	height: 600px;
+	max-height: 650px;
+	background-image: linear-gradient(135deg, blue, white);
+}
+.menuTopLeft
+{
+	position: absolute;
+  	top: 22px;
+  	left: 22px;
+}
+.alphaContainer
+{
+	display: grid;
+	grid-template-columns: repeat(13 , 1fr);
+	grid-gap: 5px;
+	margin-top: 35px;
+}
+.alphaButton
+{
+	height: 35px;
+	border-radius: 8px;
+	cursor: pointer;
+}
+.hangImage
+{
+	float : left;
+}
+.MainHangmanContainer
+{
+	grid-area: 1 / 1 / 2 / 2;
+}
+.MainCurrentWordContainer
+{
+	grid-area: 1 / 2 / 2 / 4;
+	display : grid;
+	grid-template-columns: repeat( 1fr);
+	grid-template-rows: repeat(2, 1fr);
+}
+.mainAlphabetContainer
+{
+	grid-area: 2 / 1 / 3 / 4;
+	height: 300px;
+}
+.wrongLetter
+{
+	color: black;
+	background-color: red;
+	border-color: white;
+	height: 35px;
+	border-radius: 8px;
+}
+.hiddenWordBorder
+{
+	border-style: solid;
+	border-radius: 5px;
+	border-color: blue;
+	padding: 2px;
+	float: left;
+	width: 35px;
+	margin: 2px;
+
+}
+.loseFace
+{
+	height: 300px;
+	width: 260px;
+}
+.currentWord
+{
+	text-align: center;
+	line-height: 50%;
+	margin-left: 45px;
+	margin-top: 50px;
+	margin-right: 10px;
+}
+.tryAgainButton
+{
+	margin-top :30px;
+	font-size: 20px;	
+}
+.tryAgainButton 
+{
+	margin-top :25px;
+}
+.startButton
+{
+	font-size: 40px;
+	cursor: pointer;
+	border-radius: 12px;
+	padding: 10px;
+}
+.CorrectContainer
+{
+	display: grid;
+	grid-template-columns: repeat( 1fr);
+	grid-template-rows: repeat(3, 1fr);
+}
+.displayCorrectResult
+{
+	margin-top: 10px;
+}
+.rightResult
+{
+	color: green;
+	font-size: 35px;
+}
+.smiley
+{
+	margin-left: auto;
+	margin-right: auto;
+    width: 50%;
+    height:210px;
+    width :210px;
+}
+.playButtonMenu
+{
+	font-size: 45px;
+	border-radius: 8px;
+	/*background-color: #1c4aed;*/
+	cursor: pointer;
+}
+.menuButtonDiv
+{
+	margin-top: 5%;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	border-style: solid;
+	padding: 20px;
+	border-radius: 8px;
+	padding-bottom: 100px;
+	padding-top: 50px;
+	border-color: blue;
+	background-image: linear-gradient(135deg, blue, white);
+}
+
+.hangmanTitle
+{
+	font-size: 55px;
+	background-image: linear-gradient(135deg, blue, white);
+	font-family: "Courier Prime";
+}
+.MenuButton
+{
+	font-size: 35px;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+
+/*
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 2 / 1 / 3 / 3; }
+*/
